@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 22px; font-weight: normal; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+ul {
+  padding-left: 25px;
+}
+
+code {
+  font-size: 1.1em;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  display: block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 7px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 8px 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 3px 5px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  background-color: #007bff;
+}
+
+.gallery-container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.counter {
+  font-weight: bold;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+.description {
+  text-align: justify;
+  margin-top: 10px;
+}
